@@ -139,7 +139,7 @@ async def track_stock_loop(bot: Bot):
             old_price = new_price
 
             print(update_string)
-            await bot.send_message(chat_id=5091782216, text=update_string)
+            await bot.send_message(chat_id=YOUR_CHAT_ID, text=update_string)
 
             await asyncio.sleep(5)  # Delay between each iteration
 
